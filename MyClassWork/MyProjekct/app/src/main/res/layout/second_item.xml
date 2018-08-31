@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="5dp"
+        android:background="#d6dcca"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+        <TextView
+            android:id="@+id/name_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="cursive"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textColor="#67a935"
+            android:layout_margin="10dp"
+            android:layout_toEndOf="@id/image_item" />
+
+        <TextView
+            android:id="@+id/description_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp"
+            android:textSize="25sp"
+            android:textStyle="italic"
+            android:textColor="#67a935"
+            android:layout_toEndOf="@id/image_item" />
+
+        <ImageButton
+            android:id="@+id/button_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@null"
+            android:src="@drawable/ic_filter_vintage_black_24dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
